@@ -20,7 +20,8 @@ class Landing extends React.Component {
           <br></br>
           {/* <button className={styles.code} onClick={() => playMeme()}>Enter</button> */}
           <audio 
-          autoPlay
+           autoPlay
+           loop
           // controls 
           src="/cantina.mp3" />
         </p>
