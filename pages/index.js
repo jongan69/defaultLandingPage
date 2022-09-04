@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Landing from '../components/Landing'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Landing.module.css'
 import Image from 'next/image'
 import Particles from 'react-tsparticles'
 import { loadSnowPreset } from "tsparticles-preset-snow";
