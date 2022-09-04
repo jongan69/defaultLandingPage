@@ -4,18 +4,19 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <ul >
-    <li>
+    <ul className={styles.container}>
+    <h3>App Name / Logo</h3>
+    <li className={styles.items}>
       <Link href="/Home">
         <a>Home</a>
       </Link>
     </li>
-    <li>
+    <li  className={styles.items}>
       <Link href="/Profile">
         <a>Profile</a>
       </Link>
     </li>
-    <li>
+    <li  className={styles.items}>
       <Link href="/Settings">
         <a>Settings</a>
       </Link>

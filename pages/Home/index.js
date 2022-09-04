@@ -4,8 +4,10 @@ import Header from "../../components/Header";
 export default function Home() {
   return (
     <>
-        <Header/>
-        <h1> Home </h1>
+      <Header />
+      <main style={{ padding: '1rem 0' }}>
+        <h2>Home</h2>
+      </main>
     </>
   );
 }
