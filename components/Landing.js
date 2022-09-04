@@ -38,7 +38,7 @@ function Landing() {
               home(router)
               }}
           >
-            <h1>The App isnt ready but Feel free to continue</h1>
+            <h3>The App isnt ready but Feel free to continue</h3>
           </Modal>
 
           <button className={styles.code} onClick={() => {

@@ -1,5 +1,5 @@
 
-import styles from '../styles/Landing.module.css'
+import styles from '../styles/Modal.module.css'
 
 function Modal({ children, shown, close, openPage }) {
     return shown ? (

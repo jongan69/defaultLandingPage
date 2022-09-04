@@ -1,9 +1,10 @@
+import styles from '../styles/Header.module.css'
 import * as React from "react";
 import Link from 'next/link'
 
 export default function Header() {
   return (
-    <ul>
+    <ul >
     <li>
       <Link href="/Home">
         <a>Home</a>
